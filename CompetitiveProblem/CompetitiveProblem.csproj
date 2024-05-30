@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ProblemList\Medium\" />
     <Folder Include="ProblemList\Hard\" />
   </ItemGroup>
 
