@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="BigO\2.Logarithmic_Time_O%28logN%29\" />
+    <Folder Include="BigO\3.LinearTime_O%28n%29\" />
+    <Folder Include="BigO\4.LogLinearTime_O%28NlogN%29\" />
+    <Folder Include="BigO\5.QuadraticTime_O%28n^2%29\" />
+    <Folder Include="BigO\6.ExponentialTime_O%282^n%29\" />
+    <Folder Include="BigO\7.FactorialTime_O%28n!%29\" />
     <Folder Include="ProblemList\Hard\" />
   </ItemGroup>
 
