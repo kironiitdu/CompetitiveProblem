@@ -56,24 +56,31 @@ namespace CompetitiveProblem.BigO._2.Logarithmic_Time_O_logN_
             //Need to definefine left, right and middle
             int left = 0;
             int right = array.Length - 1;
-            while (left < right)
+            while (left <= right)
             {
                 //Find the middle
                 int mid = (left + right) / 2;
 
                 //Checking if the mid equal to target in that case we found the target in mid
-                if (array[mid] == target) return mid;
+                if (array[mid] == target) 
+                {
+                    return mid;
+                }
+               
 
                 //If the target is getter than middle then it should be in right side of array and its for sorted array
 
                 if (array[mid]<target)
                 {
+                    
                     left = mid + 1;
+                   
                 }
                 //If the target is less than the middle then it should be left side of the array its for sorted array
                 else
                 {
                     right = mid - 1;
+                    
                 }
 
 
