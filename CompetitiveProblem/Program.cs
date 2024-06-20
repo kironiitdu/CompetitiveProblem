@@ -2,11 +2,12 @@
 
 using CompetitiveProblem.BigO._1.ConstantTime_O_1_;
 using CompetitiveProblem.BigO._2.Logarithmic_Time_O_logN_;
+using CompetitiveProblem.BigO._3.LinearTime_O_n_;
 using CompetitiveProblem.ProblemList.Easy.AlgorithomicProblems;
 using CompetitiveProblem.ProblemList.Medium;
 
 var twoSum = new TwoSumsProblem();
-int[] nums = { 2, 7, 11, 15 };
+int[] nums = { 2, 7, 11, 15,5,61,7 };
 
 var findLarge = new FindLargeNumberFromArray();
 Console.WriteLine("The large number in the array is: {0}",findLarge.FindLargeNumber(nums));
@@ -30,7 +31,10 @@ string s1 = "llo";
 string s2 = "hello world";
 
 // Check if str1 is a substring of str2
-var testSubstring = new CheckSubsequentSubstringsBetweenTwoGivenInput();
-bool isSubstring1 = testSubstring.IsSubstring(s1, s2);
-Console.WriteLine($"{s1} is a substring of {s2}: {isSubstring1}");
+//var testSubstring = new CheckSubsequentSubstringsBetweenTwoGivenInput();
+//bool isSubstring1 = testSubstring.IsSubstring(s1, s2);
+//Console.WriteLine($"{s1} is a substring of {s2}: {isSubstring1}");
+
+var findMaxElement = new O_n__LinearTime();
+Console.Write("Lagerst number is: {0}", findMaxElement.FindMaxElementFromArray(nums));
 
